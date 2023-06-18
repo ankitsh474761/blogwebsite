@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import {getAuth,GoogleAuthProvider} from "firebase/auth";
 import {getFirestore} from "firebase/firestore"
 
-console.log(process.env.REACT_APP_apikey);
+// console.log(process.env.REACT_APP_apikey);
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_apikey,
   authDomain: process.env.REACT_APP_authDomain,
